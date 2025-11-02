@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8fafc;
+  color: #222;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background: #111;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background: #0d0d0d;
+}
+
+.logo {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #f9d500;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #f9d500;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom right, #1a1a1a, #222);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.4em;
+  margin-bottom: 10px;
+  color: #f9d500;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.btn {
+  display: inline-block;
+  background: #f9d500;
+  color: #111;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ffe55e;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+main {
+  padding: 50px 10%;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h2 {
+  color: #111;
+  border-left: 6px solid #f9d500;
+  padding-left: 10px;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex: 1 1 250px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.team-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.news-item {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background: #0d0d0d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+}

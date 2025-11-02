@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #eee;
+}
+
+/* Kotak hitam di pojok kiri */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grid Rubik di tengah kotak hitam */
+.rubik {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; /* jarak antar baris */
+}
+
+/* Tiap baris Rubik */
+.row {
+  display: flex;
+  gap: 10px; /* jarak antar kotak */
+}
+
+/* Kotak Rubik */
+.cube {
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+/* Warna tiap baris */
+.row1 .cube {
+  background-color: red;
+}
+
+.row2 .cube {
+  background-color: yellow;
+}
+
+.row3 .cube {
+  background-color: blue;
+}
