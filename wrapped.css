@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 650px;
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    backdrop-filter: blur(10px);
+}
+
+.month {
+    height: 42px;
+}
+
+.year {
+    height: 24px;
+    margin-top: 10px;
+}
+
+.dropdown-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dropdown {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.dropdown summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown summary::-webkit-details-marker {
+    display: none;
+}
+
+.event {
+    height: 20px;
+    width: 60%;
+}
+
+.date {
+    height: 18px;
+    width: 25%;
+    text-align: right;
+}
+
+.dropdown-content {
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.dropdown-content p {
+    min-height: 60px;
+}
